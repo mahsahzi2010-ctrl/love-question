@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(135deg, #ffb6c1, #ffc0cb);
+    text-align: center;
+    margin-top: 150px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px #ff69b4;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#yesButton {
+    background-color: #ff69b4;
+    color: white;
+}
+
+#noButton {
+    background-color: white;
+    color: #ff69b4;
+}
+
+#hearts div {
+    animation: floatUp 3s linear infinite;
+}
+
+@keyframes floatUp {
+    from {
+        transform: translateY(100vh);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+}
